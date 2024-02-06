@@ -1,0 +1,8 @@
+quarter=int(input("Enter money in quarter: "))
+print(f"{quarter} Quarters are equal to {quarter*0.25} Dollars")
+dime=int(input("Enter money in dime: "))
+print(f"{dime} Dimes are equal to {dime*0.10} Dollars")
+nickle=int(input("Enter money in nickle: "))
+print(f"{nickle} Nickles are equal to {nickle*0.05} Dollars")
+penny=int(input("Enter money in penny: "))
+print(f"{penny} Pennies are equal to {penny*0.01} Dollars")

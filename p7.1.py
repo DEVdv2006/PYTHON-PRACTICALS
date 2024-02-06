@@ -1,0 +1,6 @@
+mytuple=('apple','mango','banana','guvava','cherry','pineapple')
+print(mytuple)
+x=list(mytuple)
+x.remove('banana')
+mytuple=tuple(x)
+print(mytuple)

@@ -1,0 +1,28 @@
+{
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [
+        {
+            "oracleOptions": {
+                "autoCommit": false,
+                "lowerCase": false,
+                "thickMode": false,
+                "limitPrefetchRows": false
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1521,
+            "askForPassword": true,
+            "driver": "Oracle",
+            "name": "LOCALHOST",
+            "group": "LOCALHOST",
+            "database": "hr",
+            "username": "SYSTEM"
+        }
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none",
+    "oracledevtools.defaultConnection": "SYSTEM.XEPDB1",
+    "wolf.disableHotModeWarning": true
+}

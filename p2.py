@@ -1,0 +1,5 @@
+name=input("Enter your name")
+contact_no=input("Enter your contact no")
+email=input("Enter your email ")
+birthdate=input("Enter your birthdate")
+print(f"Name:{name}\nContact number:{contact_no}\nEmail:{email}\nBirthdate:{birthdate}")
